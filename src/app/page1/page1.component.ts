@@ -16,5 +16,9 @@ export class Page1Component implements OnInit {
 
   ngOnInit() {
   }
+  locationBack() {
+    window.history.back();
+  }
 
+ 
 }
